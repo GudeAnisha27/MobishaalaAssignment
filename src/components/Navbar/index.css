@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
