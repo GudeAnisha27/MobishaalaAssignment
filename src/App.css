@@ -13,7 +13,7 @@ main {
   gap: 20px;
   justify-content: center;
   align-items: center;
-  max-width: 600px;
+  max-width: 800px; /* Adjusted for better spacing */
   margin: 0 auto;
 }
 
@@ -25,6 +25,7 @@ main {
   border: 1px solid #ccc;
   border-radius: 10px;
   transition: background-color 0.3s;
+  cursor: pointer; /* Added cursor pointer for better usability */
 }
 
 .category:hover {
@@ -33,9 +34,188 @@ main {
 
 .category h3 {
   margin-top: 10px;
+  font-size: 1.2em; /* Increased font size for category titles */
 }
 
 .category svg {
   font-size: 2em;
   color: #333;
+}
+
+.response-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.response-content {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 600px; 
+}
+
+.line{
+  color: #333;
+  width: 100vw;
+}
+.related-questions {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.related-questions h3 {
+  font-size: 1.2em;
+}
+
+.related-questions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.related-questions li {
+  margin-bottom: 10px;
+}
+
+.follow-up {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.follow-up form {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.follow-up input[type="text"] {
+  width: 300px; /* Adjusted input width for better usability */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.follow-up button[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.follow-up button[type="submit"]:hover {
+  background-color: #333;
+}
+
+.new-chat-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.new-chat-button:hover {
+  background-color: #333;
+}
+
+
+.response-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.response-header {
+  margin-bottom: 10px;
+}
+
+.response-content {
+  margin-bottom: 20px;
+}
+
+.related-questions h3 {
+  margin-top: 0;
+}
+
+.related-questions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.related-questions li {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.follow-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.follow-up form {
+  display: flex;
+  align-items: center;
+}
+
+.follow-up input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.follow-up button {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.follow-up button:hover {
+  background: #333;
+}
+
+.new-chat-button {
+  margin-left: 10px;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-chat-button:hover {
+  background: #333;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  margin: 10px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.category h3 {
+  margin-top: 10px;
 }
